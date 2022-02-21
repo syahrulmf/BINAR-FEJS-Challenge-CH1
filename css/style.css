@@ -19,6 +19,7 @@ nav, .hero {
 .btn-register, .btn-get-started {
   background-color: #5CB85F;
   color: white !important;
+  padding: 8px 12px 8px 12px !important;
 }
 
 .hero {
