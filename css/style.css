@@ -94,6 +94,7 @@ nav, .hero {
 .why-us .card {
   min-height: 196px;
   min-width: 268px;
+  border: 1px solid #D0D0D0 !important;
 }
 
 .why-us .card .card-body .card-tittle {
@@ -105,5 +106,25 @@ nav, .hero {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+}
+
+.testimonial {
+  margin-bottom: 100px;
+}
+
+.testimonial h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.testimonial p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.testimonial .owl-carousel .item {
+  background-color: aqua;
 }
 /*# sourceMappingURL=style.css.map */

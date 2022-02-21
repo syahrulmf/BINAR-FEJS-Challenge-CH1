@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="libraries/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="libraries/owl-carousel/css/owl.theme.default.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -155,12 +159,54 @@
     <!-- End Section Why Us -->
 
     <!-- Section Testimonial -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h3>Testimonial</h3>
+            <p>Berbagai review positif dari para pelanggan kami</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+      </div>
+    </section>
     <!-- End Section testimonial -->
 
     <!-- Custom JS -->
 
     <!-- Bootstrap JS -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jquery -->
+    <script src="libraries/jquery/jquery.3.4.1.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="libraries/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+        stagePadding: 300,
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+        }
+      })
+    </script>
+
   </body>
 </html>
