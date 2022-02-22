@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="top">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -21,23 +21,23 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light py-3 sticky-top" id="navbar">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="#top"><img src="assets/img/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mr-5">
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Services</a>
+              <a class="nav-link" href="#services">Our Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Why Us</a>
+              <a class="nav-link" href="#why-us">Why Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#testimonial">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-sm btn-register" href="#">Register</a>
@@ -159,7 +159,7 @@
     <!-- End Section Why Us -->
 
     <!-- Section Testimonial -->
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -229,7 +229,7 @@
     <!-- End Section CTA Banner -->
 
     <!-- Section FAQ -->
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
@@ -310,7 +310,8 @@
     </section>
     <!-- End Seciton FAQ -->
 
-    <footer class="footer">
+    <!-- Section Footer -->
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-3 address-list">
@@ -322,10 +323,10 @@
           </div>
           <div class="col-md-3 nav-list">
             <ul>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Why Us</a></li>
-              <li><a href="#">Testimonial</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#why-us">Why Us</a></li>
+              <li><a href="#testimonial">Testimonial</a></li>
+              <li><a href="#faq">FAQ</a></li>
             </ul>
           </div>
           <div class="col-md-3 sosmed-list">
@@ -344,38 +345,17 @@
       </div>
     </footer>
 
-    <!-- Custom JS -->
-
-    <!-- Bootstrap JS -->
-    <script src="libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <!-- Jquery -->
     <script src="libraries/jquery/jquery.3.4.1.js"></script>
 
+    <!-- Bootstrap JS -->
+    <script src="libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
     <!-- Owl Carousel JS -->
     <script src="libraries/owl-carousel/js/owl.carousel.min.js"></script>
-
-    <script>
-      $('.owl-carousel').owlCarousel({
-        stagePadding: 400,
-        loop:true,
-        margin:36,
-        nav:true,
-        navText: ["<img class='mt-3' src='./assets/icon/left_button.png'>","<img class='mt-3' src='./assets/icon/right_button.png'>"],
-        dots: false,
-        responsive:{
-          0:{
-              items:1
-          },
-          600:{
-              items:1
-          },
-          1000:{
-              items:1
-          }
-        }
-      })
-    </script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 
   </body>
 </html>
