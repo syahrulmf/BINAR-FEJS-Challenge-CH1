@@ -5,15 +5,19 @@ $('.owl-carousel').owlCarousel({
   nav:true,
   navText: ["<img src='./assets/icon/left_button.png'>","<img src='./assets/icon/right_button.png'>"],
   dots: false,
+  center:true,
+  responsiveClass:true,
+  autoWidth:true,
+  autoHeight:true,
   responsive:{
     0:{
         items:1
     },
     600:{
-        items:1
+        items:2
     },
     1000:{
-        items:1
+        items:2
     }
   }
 })

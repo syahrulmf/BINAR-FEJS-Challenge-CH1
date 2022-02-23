@@ -110,8 +110,8 @@ nav, .hero {
 }
 
 .why-us .card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .why-us .card .card-body .card-tittle {
@@ -282,5 +282,179 @@ nav, .hero {
   font-weight: 300;
   line-height: 20px;
   margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-img img {
+    width: 50%;
+  }
+  .testimonial .owl-carousel .item {
+    min-height: 100px;
+    width: 380px;
+  }
+  .testimonial .owl-carousel .item .img-testimonial {
+    width: 60px;
+    height: 60px;
+    margin: 60px 26px 60px 20px;
+  }
+  .testimonial .owl-carousel .item .img-rating {
+    width: 60px;
+    height: 12px;
+    margin-bottom: 5px;
+  }
+  .testimonial .owl-carousel .item p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .testimonial .owl-carousel .item h6 {
+    font-size: 12px;
+  }
+  .footer .sosmed-list img {
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-nav .nav-item {
+    margin-right: 0;
+    text-align: center;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-img img {
+    display: none;
+  }
+  .services .img-services {
+    margin-bottom: 20px;
+  }
+  .testimonial .owl-carousel .item {
+    min-height: 100px;
+    width: 330px;
+  }
+  .testimonial .owl-carousel .item .img-testimonial {
+    width: 50px;
+    height: 50px;
+    margin: 60px 15px 60px 15px;
+  }
+  .testimonial .owl-carousel .item .img-rating {
+    width: 50px;
+    height: 10px;
+    margin-bottom: 5px;
+  }
+  .testimonial .owl-carousel .item p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .testimonial .owl-carousel .item h6 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services h3, .services p {
+    text-align: center;
+  }
+  .services .services-list img {
+    margin-left: 20%;
+  }
+  .why-us h3, .why-us p {
+    text-align: center;
+  }
+  .why-us .card p, .why-us .card h6 {
+    text-align: center;
+  }
+  .why-us .card img {
+    margin-left: 45%;
+  }
+  .testimonial .owl-carousel .item {
+    width: 330px;
+  }
+  .cta-banner .cta-bg {
+    min-height: 250px;
+  }
+  .cta-banner .cta-bg h3 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .cta-banner .cta-bg p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .cta-banner .cta-bg a {
+    font-size: 14px;
+  }
+  .footer .address-list {
+    margin-left: -32px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .services h3, .services p {
+    text-align: center;
+  }
+  .services .services-list img {
+    margin-left: 8%;
+  }
+  .testimonial .owl-carousel .item .img-testimonial {
+    width: 80px;
+    height: 80px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+  }
+  .testimonial .owl-carousel .item .img-rating {
+    width: 60px;
+    height: 12px;
+    margin-left: 120px;
+  }
+  .testimonial .owl-carousel .item p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+  }
+  .testimonial .owl-carousel .item h6 {
+    font-size: 12px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+  }
+  .cta-banner .cta-bg {
+    min-height: 230px;
+  }
+  .cta-banner .cta-bg h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .cta-banner .cta-bg p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 0 10px 0 10px;
+  }
+  .cta-banner .cta-bg a {
+    font-size: 14px;
+  }
+  .faq h3 {
+    text-align: center;
+  }
+  .faq p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footer .address-list {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -25px;
+  }
+  .footer .nav-list {
+    text-align: center;
+    margin-left: -25px;
+    margin-bottom: 20px;
+  }
+  .footer .sosmed-list, .footer .copyright {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
