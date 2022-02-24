@@ -15,7 +15,7 @@ nav, .hero {
 
       .nav-link {
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 20px;
         color: black;
 
@@ -134,8 +134,6 @@ nav, .hero {
         font-weight: 700;
       }
     }
-
-    
   }
 }
 // End Why Us Section
@@ -157,6 +155,32 @@ nav, .hero {
   }
 
   .owl-carousel {
+    .owl-nav{
+      .owl-prev{
+        &:hover {
+          background-color: #5cb85f !important;
+          border-radius: 50% 50%;
+        }
+        img {
+          &:hover {
+            opacity: 0.2;
+          }
+        }
+      }
+
+      .owl-next {
+        &:hover {
+          background-color: #fff !important;
+          border-radius: 50% 50%;
+        }
+        img {
+          &:hover {
+            opacity: 0.2;
+          }
+        }
+      }
+    }
+    
     .item {
       background-color:#F1F3FF;
       min-height: 270px;
@@ -283,7 +307,7 @@ nav, .hero {
         a {
           text-decoration: none;
           font-size: 14px;
-          font-weight: 600;
+          font-weight: 400;
           line-height: 20px;
           color: black;
 
@@ -396,6 +420,13 @@ nav, .hero {
     }
   }
 
+  // Why Us section
+  .why-us {
+    h3, p {
+      text-align: center;
+    }
+  }
+
   // Testimonial Section
   .testimonial {
     .owl-carousel {
@@ -429,7 +460,7 @@ nav, .hero {
   // End Testimonial Section
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
   // Services Seciton
   .services {
     h3, p{
@@ -461,10 +492,42 @@ nav, .hero {
   }
 
   // Testimonial Seciton
-  .testimonial{
-    .owl-carousel{
-      .item{
+  // .testimonial{
+  //   .owl-carousel{
+  //     .item{
+  //       width: 330px;
+  //     }
+  //   }
+  // }
+  .testimonial {
+    .owl-carousel {
+      .item {
         width: 330px;
+        .img-testimonial {
+          width: 80px;
+          height: 80px;
+          margin-left: 110px;
+          margin-bottom: 15px;
+        }
+
+        .img-rating {
+          width: 60px;
+          height: 12px;
+          margin-left: 120px;
+        }
+
+        p {
+          font-size: 12px;
+          margin-bottom: 10px;
+          padding: 0 15px 0 15px;
+          text-align: center;
+        }
+        
+        h6 {
+          font-size: 12px;
+          padding: 0 15px 0 15px;
+          text-align: center;
+        }
       }
     }
   }

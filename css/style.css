@@ -13,7 +13,7 @@ nav, .hero {
 
 .navbar .navbar-nav .nav-item .nav-link {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 20px;
   color: black;
 }
@@ -141,6 +141,24 @@ nav, .hero {
   font-weight: 300;
 }
 
+.testimonial .owl-carousel .owl-nav .owl-prev:hover {
+  background-color: #5cb85f !important;
+  border-radius: 50% 50%;
+}
+
+.testimonial .owl-carousel .owl-nav .owl-prev img:hover {
+  opacity: 0.2;
+}
+
+.testimonial .owl-carousel .owl-nav .owl-next:hover {
+  background-color: #fff !important;
+  border-radius: 50% 50%;
+}
+
+.testimonial .owl-carousel .owl-nav .owl-next img:hover {
+  opacity: 0.2;
+}
+
 .testimonial .owl-carousel .item {
   background-color: #F1F3FF;
   min-height: 270px;
@@ -258,7 +276,7 @@ nav, .hero {
 .footer .nav-list ul li a {
   text-decoration: none;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 20px;
   color: black;
 }
@@ -328,6 +346,9 @@ nav, .hero {
   .services .img-services {
     margin-bottom: 20px;
   }
+  .why-us h3, .why-us p {
+    text-align: center;
+  }
   .testimonial .owl-carousel .item {
     min-height: 100px;
     width: 330px;
@@ -351,7 +372,7 @@ nav, .hero {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .services h3, .services p {
     text-align: center;
   }
@@ -369,6 +390,28 @@ nav, .hero {
   }
   .testimonial .owl-carousel .item {
     width: 330px;
+  }
+  .testimonial .owl-carousel .item .img-testimonial {
+    width: 80px;
+    height: 80px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+  }
+  .testimonial .owl-carousel .item .img-rating {
+    width: 60px;
+    height: 12px;
+    margin-left: 120px;
+  }
+  .testimonial .owl-carousel .item p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+  }
+  .testimonial .owl-carousel .item h6 {
+    font-size: 12px;
+    padding: 0 15px 0 15px;
+    text-align: center;
   }
   .cta-banner .cta-bg {
     min-height: 250px;
