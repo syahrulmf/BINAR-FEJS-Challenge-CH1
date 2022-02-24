@@ -91,6 +91,12 @@ nav, .hero {
       font-weight: 300;
     }
   }
+  
+  // Setting img services responsive
+  .img-services-2 {
+    display: none;
+  }
+  // end setting
 }
 // End Services Section
 
@@ -576,6 +582,18 @@ nav, .hero {
         margin-left: 8%;
       }
     }
+
+    // Setting img services responsive
+    .img-services {
+      display: none;
+    }
+
+    .img-services-2 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 16px !important;
+    }
+    // end setting
   }
 
   // Testimonial
