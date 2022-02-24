@@ -3,7 +3,7 @@ $('.owl-carousel').owlCarousel({
   loop:true,
   margin:36,
   nav:true,
-  navText: ["<img src='./assets/icon/left_button.png'>","<img src='./assets/icon/right_button.png'>"],
+  navText: ["<img src='./assets/icon/left_button.png'>","<img src='./assets/icon/right_button2.png'>"],
   dots: false,
   center:true,
   responsiveClass:true,

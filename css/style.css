@@ -141,6 +141,11 @@ nav, .hero {
   font-weight: 300;
 }
 
+.testimonial .owl-carousel .owl-nav .owl-prev {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
 .testimonial .owl-carousel .owl-nav .owl-prev:hover {
   background-color: #5cb85f !important;
   border-radius: 50% 50%;
@@ -150,8 +155,13 @@ nav, .hero {
   opacity: 0.2;
 }
 
+.testimonial .owl-carousel .owl-nav .owl-next {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
 .testimonial .owl-carousel .owl-nav .owl-next:hover {
-  background-color: #fff !important;
+  background-color: #5cb85f !important;
   border-radius: 50% 50%;
 }
 

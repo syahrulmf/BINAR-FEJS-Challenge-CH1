@@ -157,6 +157,7 @@ nav, .hero {
   .owl-carousel {
     .owl-nav{
       .owl-prev{
+        transition: .4s;
         &:hover {
           background-color: #5cb85f !important;
           border-radius: 50% 50%;
@@ -169,8 +170,9 @@ nav, .hero {
       }
 
       .owl-next {
+        transition: .4s;
         &:hover {
-          background-color: #fff !important;
+          background-color: #5cb85f !important;
           border-radius: 50% 50%;
         }
         img {
@@ -180,7 +182,7 @@ nav, .hero {
         }
       }
     }
-    
+
     .item {
       background-color:#F1F3FF;
       min-height: 270px;
